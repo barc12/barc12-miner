@@ -1,0 +1,1 @@
+# barc12-miner
